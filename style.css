@@ -1,53 +1,107 @@
-canvas {
-    border: 1px solid black;
-    display:block;
-    margin:0 auto;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    right: -10px;
-    width: 101%;
-}
-#container {
-    position: relative;
-    z-index: 1000000;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: left;
-    background-color: rgba(60,60,60,0.7);
-    border: 1px solid rgba(50,50,50,0.2);
-    border-radius: 10px;
-    font-family: Helvetica;
-    font-weight: 100;
-    color: white;
-    padding: 10px;
-    margin-top: 50px;
-}
-h1 {
-    text-align: center;
-    margin: 0px;
-    margin-top: 15px;
-}
-.notice {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    color: #BBB;
-}
 body {
-    background-color: #333;
+  font-family: "Open Sans", sans;
+  background-color: rgb(250, 250, 250);
+  padding: 30px;
+  color: rgb(75, 75, 75);
+}
+b {
+  color: black;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 a {
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-}
-nav {
-    text-align: center;
+  color: #009bff;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
-    
+  color: #0079ff;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  width: 900px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgb(200, 200, 200);
+  padding: 2rem;
+  background-color: white;
+}
+header {
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+header > p {
+  font-size: 18px;
+}
+
+.me {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.section {
+  clear: both;
+}
+
+.headline:before {
+  content: '# ';
+  font-family: monospace;
+  font-size: 14px;
+  color: lightgray;
+}
+
+.tagline {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.tagline:before {
+  content: '? ';
+  font-family: monospace;
+  font-size: 14px;
+  color: lightgray;
+}
+
+.logo {
+  width: 150px;
+  float: right;
+  margin: 0.5rem;
+}
+
+ul.links {
+  list-style: none;
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links > li {
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0.5rem;
+}
+
+ul.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.projects > li:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+ul.projects > li:before {
+  content: '~';
+  color: lightgray;
 }

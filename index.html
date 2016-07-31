@@ -5,69 +5,109 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<canvas id="hexmap" width="1500" height="1310"></canvas>
-		<div id="container">
-		    <h1>Kaelan Cooter</h1>
-		    <div class="notice">Reload the page to see a new background!</div>
-		    <nav>
-		    <a href="http://blog.kaelan.org/">My Blog</a> |
-		    <a href="https://www.dropbox.com/s/ciztuxpyoccyu6u/New%20Resume.pdf">My Resume</a>
-		    </nav>
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans" rel="stylesheet">
+		<main>
+		  <h1>
+		    Kaelan Cooter
+		    <ul class="links">
+		      <li><a href="http://blog.kaelan.org/">Blog</a></li>
+		      <li><a href="http://www.github.com/eranimo">Github</a></li>
+		    </ul>
+		  </h1>
+		  <header>
+		    <img class="me" src="http://i.imgur.com/9BfDRps.png">
+		    <p>
+		      I'm a full stack web developer living in Boston, Massachusetts and a recent college graduate. I enjoy creating things and going places. I like exploring the unknown and pushing the limits of my knowledge. I enjoy tackling interesting technical challenges and working with the latest technologies.
+		    </p>
+		  </header>
 
-				<h2>I am...</h2>
-				<ul>
-					<li>
-						A full-stack web developer with over nine years of experience focusing on web applications built using modern frameworks like Angular and React.
-					</li>
-					<li>
-						A student at <a href="http://www.northeastern.edu/">Northeastern University</a> studying <a href="http://www.ccs.neu.edu/">Computer Science</a>. Northeastern offers a five year program, which I am in my third year of. The university is also known for their cooperative education program, which I have participated in.
-					</li>
-					<li>
-						An occasional freelance developer.
-					</li>
-				</ul>
+		  <h2>Education</h2>
 
-				<h2>I have worked at...</h2>
-				<ul>
-					<li><u>Compete, Inc</u> as an intern full-stack web developer for six months as  part of the cooperative education (co-op) program at Northeastern. I was responsible for maintaining and upgrading extensive front-end user interface code and was one of two developers working on a separate new product.</li>
-					<li><u>Novartis Institute for Biomedical Research</u> as a front-end web developer for nearly eight months from May to December 2012. I worked to develop large internal web applications for Novartis scientists to better keep track and record their research.</li>
-					<li><u>PayPal</u> where I developed an AngularJS application that made it easier for PayPal employees to manage and create merchant coupon offers. I also worked on another Java Spring application that allowed merchants to create retail offers. I worked in a small team in PayPal's Boston office that was a recently acquired startup.</li>
-				</ul>
+		  <p class="section">
+		    <img class="logo" src="http://www.northeastern.edu/guidelines/images/page/PrimaryLogo_S_gR.png">
+		    <div class="headline">
+		      <b><a href="http://www.neu.edu/">Northeastern University</a></b> - <i>September 2011 - May 2016</i>
+		    </div>
+		    <div class="tagline">
+		      College of Computer and Information Science
+		    </div>
+		    Five year program with <a href="http://www.northeastern.edu/coop/">three coops</a><br />
+		    Major in <b>Computer Science</b><br />
+		    Minor in <b>History</b>
+		  </p>
 
-				<h2>I'm currently working at</h2>
-				<ul>
-					<li><u>HourlyNerd</u> since January 2015 helping build their enterprise business consulting application. I have been instrumental in designing the frontend Angular application and a few major architecture upgrades in the last few months.</li>
-				</ul>
+		  <h2>Employment</h2>
 
-				<h2>My Projects</h2>
-				<p>
-					I have been interested in randomized mapping algorithms for several years. This involves randomly generating terrain features that resemble a geological world map. I have expanded this further to feature temperature, rainfall, lakes and rivers, climate zones, and even plate tectonics. Most of my current work is randomly generating political boundaries on these random worlds.
-				</p>
+		  <p class="section">
+		    <img class="logo" src="http://cdn2.hubspot.net/hubfs/53/hubspot-logo-dark-2.png?t=1469824657614">
+		    <div class="headline">
+		      <b><a href="http://www.hubspot.com/">Hubspot</a></b> - <i>May 2016 - Present</i>
+		    </div>
+		    <div class="tagline">Software Engineer</div>
+		    Working in the frontend as a service team (FaaS) developing web applications and tools for HubSpot developers. Primary projects include our internal frontend application build system and our internal package management application.
+		  </p>
 
-				<p>
-					My main project of five years is a web-based space strategy game that implements many of the map generation techniques I've discovered over the years. The backend of the game is written in Python using the Flask framework with the frontend being in Angular with many canvas components.
-				</p>
+		  <p class="section">
+		    <img class="logo" src="https://q65ccltn8wq58fa3nmmjq188-wpengine.netdna-ssl.com/wp-content/themes/drift/assets/images/drift-logo.svg">
+		    <div class="headline">
+		      <b><a href="http://www.drift.com">Drift</a></b> - <i>February 2016 - May 2016</i>
+		    </div>
+		    <div class="tagline">Software Engineer</div>
+		    Helped improve the customer experience when using the Drift chat application.
+		  </p>
 
-				<h2>
-					Other interests include...
-				</h2>
-				<ul>
-					<li>
-						Starting side projects I never finish.
-					</li>
-					<li>
-						Writing science fiction short stories. A small hobby of mine that originally started with writing a backstory for my game project.
-					</li>
-					<li>
-						Strategy games. A passion that sparked my interest in computer science and inspired me to build something similar.
-					</li>
-				</ul>
+		  <p class="section">
+		    <div class="headline">
+		      <b><a href="http://www.drift.com">HourlyNerd</a></b> - <i>January 2015 - February 2016</i>
+		    </div>
+		    <div class="tagline">Software Engineer Co-op</div>
+		    Worked on the front-end side of the HourlyNerd Enterprise application for over a year. Helped institute infrastructure overhauls and multi-month efforts to switch the codebase from Coffeescript to ES6 and the build infrastructure to webpack.
+		  </p>
 
-				<h2>Contact</h2>
-				<i>Email: </i> <a href="mailto:me@kaelan.org">me@kaelan.org</a><br />
-				<i>Phone: </i> 845-514-3445<br />
-				<i>Address: </i> 11 Peterborough St, Apartment 18, Boston, MA 02215<br />
-		</div>
-		<script src="map.js"></script>
+		  <p class="section">
+		    <img class="logo" src="https://media.licdn.com/media/p/5/005/05c/3a0/1cbf6f3.png">
+		    <div class="headline">
+		      <b><a href="http://www.drift.com">PayPal</a></b> - <i>January 2014 - June 2014</i>
+		    </div>
+		    <div class="tagline">Software Engineer Co-op</div>
+		    Developed an Angular application that allowed businesses to create targeted offers (coupons) for the PayPal Here mobile application.
+		  </p>
+
+		  <p class="section">
+		    <img class="logo" src="https://media.licdn.com/media/p/4/005/025/1de/07d99b9.png">
+		    <div class="headline">
+		      <b><a href="http://www.drift.com">Compete</a></b> - <i>January 2013 - June 2013</i>
+		    </div>
+		    <div class="tagline">Software Engineer Co-op</div>
+		    Worked on their front-end analytical application and helped design interactive visualizations to help understand large amounts of data.
+		  </p>
+
+		  <p class="section">
+		    <img class="logo" src="https://media.licdn.com/media/p/2/000/119/338/3efd961.png">
+		    <div class="headline">
+		      <b><a href="http://www.drift.com">Novartis</a></b> - <i>May 2012 - December 2012</i>
+		    </div>
+		    <div class="tagline">Software Engineer Intern</div>
+		    Worked on their front-end analytical application for research scientists and helped design interactive visualizations to help understand large amounts of data. Helped work on a table that allowed the user to quickly filter between over a million rows.
+		  </p>
+
+
+		  <h2>Projects</h2>
+
+		  <ul class="projects">
+		    <li>
+		      <a href="https://github.com/eranimo/terragen">Terragen</a> - a randomly generated world map with temperature, rainfall, biomes, and terrain features.
+		    </li>
+		    <li>
+		      <a href="https://github.com/eranimo/hexgen">Hexgen</a> - another randomly generated world map project, this time with a hexagon grid. More advanced than Terragen, Hexgen also attempts to simulate climate.
+		    </li>
+		    <li>
+		      <a href="https://github.com/eranimo/historia">Historia</a> - My primary side project. Right now it's an economic simulation with agent-based modelling. Agents produce and trade goods in a world map produced by <b>Hexgen</b>. In the future I hope to include a more advanced simulation of culture and history, built on top of the economic simulation.
+		    </li>
+		    <li>
+		      <a href="https://github.com/eranimo/explorer">Explorer</a> - The UI for <b>Historia</b>. Built using Electron using React and Redux, it's main component is a world map viewer developed with HTML canvas that allows the user to explore the world generated by Historia.
+		    </li>
+		  </ul>
+		</main>
 	</body>
 </html>
